@@ -1,7 +1,7 @@
 FROM gitpod/workspace-full
 
 USER gitpod
-RUN sudo apt-get install bison flex
+RUN sudo apt-get install bison flex -y
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
 #
